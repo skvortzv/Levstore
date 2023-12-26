@@ -1,0 +1,32 @@
+.catalog {
+    padding-top: 5vw;
+    background-color: #f5f5f7;
+    z-index: -1;
+    padding-bottom: 5vw;
+}
+
+.catalog h1 {
+    font-size: 4vw;
+}
+
+.center-products {
+    display: flex;
+    justify-content: center;
+    margin-top: 5vw;
+}
+
+.grid-products {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 80px;
+}
+
+.grid-products form {
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+
+.grid-products form button {
+    width: 100%;
+}

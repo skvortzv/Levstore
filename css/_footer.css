@@ -1,0 +1,27 @@
+footer {
+    padding-top: 5vw;
+    background-color: #e5e5e5;
+    z-index: -1;
+    padding-bottom: 5vw;
+}
+
+footer p {
+    text-align: center;
+}
+
+footer p {
+    font-size: 1vw;
+}
+
+.footer-flex {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-flex a {
+    margin-right: 10px;
+}
+
+.footer-flex a:last-child {
+    margin-right: 0;
+}

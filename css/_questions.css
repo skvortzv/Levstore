@@ -1,0 +1,32 @@
+.questions {
+    padding-top: 5vw;
+    background-color: #f5f5f7;
+    z-index: -1;
+    padding-bottom: 5vw;
+}
+
+.questions h1 {
+    font-size: 4vw;
+}
+
+.questions p {
+    font-size: 1vw;
+}
+
+.questions-flex {
+    display: flex;
+    justify-content: center;
+}
+
+.questions form {
+    width: 20vw;
+}
+
+.tel {
+    width: 100%;
+}
+
+.questions button {
+    padding: 10px;
+    width: 100%;
+}

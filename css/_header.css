@@ -1,0 +1,83 @@
+header {
+    z-index: 100;
+}
+
+header .container {
+    display: grid;
+    grid-template-areas: "h-logo h-description h-menu h-contacts";
+    grid-template-rows: auto;
+    grid-template-columns: 1fr 1.5fr 2.5fr 1.5fr;
+}
+.h-logo {
+    grid-area: h-logo;
+}
+.h-description {
+    grid-area: h-description;
+}
+.h-menu {
+    grid-area: h-menu;
+}
+.h-contacts {
+    grid-area: h-contacts;
+}
+
+.h-logo {
+    padding: 20px;
+}
+
+.h-logo h1 {
+    margin: 0;
+    font-size: 14pt;
+}
+
+.h-description {
+    margin: auto;
+}
+
+.h-description p {
+    margin: 0;
+    font-size: 12pt;
+}
+
+.h-menu {
+    margin: auto;
+}
+
+.h-menu .navbar {
+    display: none;
+}
+
+a {
+    font-size: 10pt !important;
+    color: #333333 !important;
+}
+
+a:hover {
+ /* animation: animation-name animation-duration animation-timing-function animation-delay animation-iteration-count animation-direction; */
+    animation: ahover .1s ease-out 0s 1 normal;
+    animation-fill-mode: forwards;
+    color: #424245 !important;
+}
+
+.h-contacts {
+    margin: auto;
+    text-align: right;
+}
+
+.h-contacts h2 {
+    margin: 0;
+    font-size: 20pt;
+}
+
+.h-contacts p {
+    margin: 0;
+    font-size: 20pt;
+}
+
+.collapse {
+    display: none;
+}
+
+.p-4 h2, p {
+    font-size: 10pt;
+}

@@ -1,0 +1,22 @@
+/* COLOR: #f5f5f7 WHITE */
+/* COLOR: #333333 DARKGRAY */
+/* COLOR: #424245 GRAY */
+/* COLOR: #fbedf9 PINK WHITE */
+/* COLOR: #233738 DARK GREEN */
+/* COLOR: #e5e5e5 DARK WHITE */
+
+@import "_fonts.css";
+@import "_base.css";
+@import "_animations.css";
+
+@import "_header.css";
+@import "_about.css";
+@import "_catalog.css";
+@import "_reviews.css";
+@import "_questions.css";
+@import "_contacts.css";
+@import "_footer.css";
+
+@import "_media.css";
+
+@import "_admin.css";

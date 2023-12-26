@@ -1,0 +1,14 @@
+.contacts {
+    padding-top: 5vw;
+    background-color: #e5e5e5;
+    z-index: -1;
+    padding-bottom: 5vw;
+}
+
+.contacts h1 {
+    font-size: 4vw;
+}
+
+.contacts p {
+    font-size: 1vw;
+}

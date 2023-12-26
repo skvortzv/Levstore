@@ -1,0 +1,4 @@
+@keyframes ahover {
+    from { text-decoration: solid underline #424245 1px; }
+    to { text-decoration: solid underline #424245 2px; }
+}

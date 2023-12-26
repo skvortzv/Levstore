@@ -1,0 +1,85 @@
+@font-face {
+    font-family: 'PT Sans Pro Bold';
+    src: local('PT Sans Pro Extra Bold'), local('PT-Sans-Pro-Extra-Bold'),
+        url('../fonts/PTSansPro-ExtraBold.woff') format('woff');
+    font-weight: 800;
+    font-style: normal;
+  }
+
+@font-face {
+    font-family: 'PT Sans Pro Light';
+    src: local('PT Sans Pro Light'), local('PT-Sans-Pro-Light'),
+        url('../fonts/PTSansPro-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+  }
+
+body {
+    font-family: 'PT Sans Pro Bold' !important;
+    color: #333333 !important;
+}
+
+.h-description {
+    font-family: 'PT Sans Pro Light';
+}
+
+.h-contacts p {
+    font-family: 'PT Sans Pro Light';
+}
+
+.ab-description p {
+    font-family: 'PT Sans Pro Light';
+}
+
+.ab-advantage p {
+    font-family: 'PT Sans Pro Light';
+}
+
+.admin-form {
+    font-family: 'PT Sans Pro Light';
+}
+
+.admin-panel {
+    font-family: 'PT Sans Pro Light';
+}
+
+
+.product .product-name {
+    font-family: 'PT Sans Pro Bold';
+}
+
+.product .product-description {
+    font-family: 'PT Sans Pro Light';
+}
+
+.product .product-price {
+    font-family: 'PT Sans Pro Bold';
+}
+
+.product button {
+    font-family: 'PT Sans Pro Bold';
+}
+
+#elements-reviews label {
+    font-family: 'PT Sans Pro Light';
+}
+
+#elements-reviews input {
+    font-family: 'PT Sans Pro Light';
+}
+
+.review-text {
+    font-family: 'PT Sans Pro Light';
+}
+
+.questions p {
+    font-family: 'PT Sans Pro Light';
+}
+
+.contacts p {
+    font-family: 'PT Sans Pro Light';
+}
+
+footer p {
+    font-family: 'PT Sans Pro Light';
+}

@@ -1,0 +1,53 @@
+.admin-form form {
+    margin: auto;
+    background-color: #333333;
+    color: #f5f5f7;
+    border-radius: 5px;
+    padding: 10px;
+    width: 500px;
+}
+
+.admin-panel hr {
+    background-color: white;
+}
+
+.admin-panel form {
+    margin-top: 10rem;
+    display: flex;
+}
+
+.admin-panel button {
+    margin-right: 5px;
+}
+.admin-panel button:last-child {
+    margin-right: 0px;
+}
+
+.admin-panel .form-add-product {
+    flex-direction: column;
+    color: #f5f5f7;
+}
+
+.order_admin {
+    display: flex;
+    flex-direction: row;
+    background-color: #f5f5f7;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.order_admin p {
+    margin-right: 5px;
+}
+
+.review_admin {
+    display: flex;
+    flex-direction: row;
+    background-color: #f5f5f7;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.review_admin p {
+    margin-right: 5px;
+}
